@@ -103,8 +103,9 @@ alerts that change score from 1-3 to 4
 #### Usage
 Resolved alerts can be obtained using one of two parameters:
 
+
 | Parameter	            | Type	    | Description |
-| _____________________ | _________ | ___________ |
+|---|---|---|
 | resolved_alerts	    | Boolean	| All resolved alerts in the last 30 days |
 | resolved_alerts_days	| int	    | Will return resolved alerts in the last X specified days |
 
