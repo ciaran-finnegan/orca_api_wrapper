@@ -97,8 +97,8 @@ python3 orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api
 
 Resolved alerts are defined as:
 
-alerts moved to status closed, done, dismissed.
-alerts that change score from 1-3 to 4
+- alerts moved to status closed, done, dismissed.
+- alerts that change score from 1-3 to 4
 
 #### Usage
 Resolved alerts can be obtained using one of two parameters:
