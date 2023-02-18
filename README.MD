@@ -1,8 +1,8 @@
-# Orca Cloud Account Query Script
+# Orca API Wrapper Script
 
-This script allows you to query a cloud account for specific data sets. Refer to Orca documenation [here](https://docs.orcasecurity.io/docs/detailed-query-api-examples) for further details.
+Refer to Orca documenation [here](https://docs.orcasecurity.io/docs/detailed-query-api-examples) for further details and the latest version of this script.
 
-- [Orca Cloud Account Query Script](#orca-cloud-account-query-script)
+- [Orca API Wrapper Script](#orca-api-wrapper-script)
   - [Requirements](#requirements)
   - [Usage](#usage)
   - [Ensure Location is Set Correctly](#ensure-location-is-set-correctly)
