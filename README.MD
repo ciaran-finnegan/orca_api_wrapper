@@ -132,7 +132,7 @@ orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token E
 ##### Export all vulnerabilities to CSV:
 
 `
-orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token EXAMPLE_API_TOKEN --query-type alerts --output-download-link --csv_delimiter ";"
+orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token EXAMPLE_API_TOKEN --query-type alerts --output-download-link --csv_delimiter "¬"
 `
 
 ### Getting help
