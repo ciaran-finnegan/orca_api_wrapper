@@ -119,14 +119,14 @@ orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token E
 `
 ### Returning data in csv format
 
-You can use the --output-download-link and --csv_delimiter parameters to return data in csv format
+You can use the --output-download-link and --csv_delimiter parameters to return data in csv format. Don't use a comma as a delimiter as it is likely to be used in returned strings, not all nested JSON data is returned, you can use the convert_json_to_csv.py script if you need this data.
 
 #### Examples
 
 ##### Export all alerts to CSV:
 
 `
-orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token EXAMPLE_API_TOKEN --query-type alerts --output-download-link --csv_delimiter ";"
+orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token EXAMPLE_API_TOKEN --query-type alerts --output-download-link --csv_delimiter "¬"
 `
 
 ##### Export all vulnerabilities to CSV:
