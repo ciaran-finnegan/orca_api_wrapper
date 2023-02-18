@@ -116,7 +116,6 @@ Obtain all resolved alerts and output to resolved_alerts.json file:
 
 `
 orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token EXAMPLE_API_TOKEN --query-type alerts --output-json-file resolved_alerts.json-- resolved_alerts true
-
 `
 ### Returning data in csv format
 
