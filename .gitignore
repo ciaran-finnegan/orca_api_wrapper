@@ -1,0 +1,6 @@
+.dccache
+.DS_Store
+**/*pycache*
+**/*log
+**/*tmp
+
