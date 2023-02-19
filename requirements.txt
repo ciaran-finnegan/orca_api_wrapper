@@ -1,0 +1,3 @@
+# argparse and json are in python3 stdlib
+requests
+
