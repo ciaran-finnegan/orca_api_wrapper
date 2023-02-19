@@ -23,6 +23,23 @@ Refer to Orca documenation [here](https://docs.orcasecurity.io/docs/detailed-que
 - Python 3.x
 - `argparse`, `json`, `requests` libraries
 
+## Setup
+
+Create a virtual environment
+```
+python3 -m venv .venv
+```
+
+Use the virtual environment
+```
+source .venv/bin/activate
+```
+
+Install the dependencies into the virtual environment
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
 To use the script, run the following command:
