@@ -1,3 +1,6 @@
+# You can use the orca_api_wrapper.py --output-download-link and --csv_delimiter parameters to return data in csv format.
+# However, not all nested JSON data is returned, you can use this script to extract all nested JSON data into a csv file.
+
 import pandas as pd
 import json
 
