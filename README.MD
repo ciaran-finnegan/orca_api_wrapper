@@ -157,5 +157,5 @@ orca_api_wrapper.py --api-url "https://app.au.orcasecurity.io/api" --api-token E
 To get help on the script, run:
 
 `
-python cloud_account_query.py -h
+python orca_api_wrapper.py -h
 `
